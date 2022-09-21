@@ -2,8 +2,8 @@
 
 ClusterLoader2 (CL2) 是 "自带yaml" 的Kubernetes负载测试工具，是官方K8s scalability和performance测试框架。
 
-The CL2 tests 使用半声明的方式写到yaml文件中。A test定义了集群应该处于的一组状态（例如我想运行10K个pod，2k个cluster-ip服务，5个daemonsets等）。并指定多快能达到给定的状态（例如pod throughput吞吐量）。此外，它还定义了应该测量哪些性能特征 [测量值列表](#3 Measurement)。
-另外, CL2 使用[Prometheus](#4 prometheus-metrics)在测试期间提供了额外的可观察性。
+The CL2 tests 使用半声明的方式写到yaml文件中。A test定义了集群应该处于的一组状态（例如我想运行10K个pod，2k个cluster-ip服务，5个daemonsets等）。并指定多快能达到给定的状态（例如pod throughput吞吐量）。此外，它还定义了应该测量哪些性能特征 [测量值列表](#Measurement)。
+另外, CL2 使用[Prometheus](#prometheus-metrics)在测试期间提供了额外的可观察性。
 
 CL2 test API 的描述见 [此][api].
 
